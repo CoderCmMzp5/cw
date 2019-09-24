@@ -72,20 +72,21 @@
     </div>
     <div class="swiper-pagination"></div>
     <div class="search">
-    	<input type="text" value="输入手机号" class="iphone" />|
-        <input type="text" value="3秒立即获取开店费用"  class="text"/>
+    	<input type="text" value="输入手机号" class="iphone" readonly=""  />|
+        <input type="text" placeholder="3秒立即获取开店费用" class="text textPhone"/>
     </div>
   </div>
 </div>
 
 <div class="part01">
     <div class="title">
-        <img src="./images/title_icon.png" /><span>小投入0门槛</span>开赚钱店
+        <font class="title_line"></font><span>小投入0门槛</span>开赚钱店<font class="title_line"></font>
         <p>Opening a Money-Making Shop with a Small Investment of 0 Threshold </p>
     </div>
     <div class="part01_img">
         <div>
             <img src="images/banner_2.png">
+            <img src="images/logo_4.jpg" class="cloudImg">
             <div>
                 <img src="images/group.png">
             </div>
@@ -99,7 +100,7 @@
 </div>
 <div class="part02">
     <div class="title">
-        <img src="./images/title_icon.png" />万元开间理想宠物店
+        <font class="title_line"></font>万元开间理想宠物店<font class="title_line"></font>
         <p>Open an Ideal Pet Shop for 10,000 yuan</p>
     </div>
     <div class="part02_content">
@@ -130,7 +131,7 @@
 </div>
 <div class="part02">
     <div class="title">
-        <img src="./images/title_icon.png" />圣宠<span>盈利项目</span>有哪些
+        <font class="title_line"></font>圣宠<span>盈利项目</span>有哪些<font class="title_line"></font>
         <p>What are the Favourite Productive Projects? </p>
     </div>
     <div class="part02_w">
@@ -162,7 +163,7 @@
 </div>
 <div class="part03">
     <div class="title">
-        <img src="./images/title_icon.png" />开圣宠店<span>加盟扶持</span>有哪些
+        <font class="title_line"></font>开圣宠店<span>加盟扶持</span>有哪些<font class="title_line"></font>
         <p>What are the franchise support holders of the Holy Favourite Store?</p>
     </div>
     <div class="layout part03_con clearfix">
@@ -187,14 +188,14 @@
             </div>
             <div class="more"><a href="javascript:;">详情&nbsp;&nbsp;&gt;&gt;</a></div>
         </div>
-        <div class="part03_div bg2">
+        <div class="part03_div bg2 bg2_2">
             <h2>区域保护</h2>
             <div class="t">
                 <p>严格确定商圈和区域保护政策，为加盟商架构经营空间，保护加盟商利益</p>
             </div>
             <div class="more"><a href="javascript:;">详情&nbsp;&nbsp;&gt;&gt;</a></div>
         </div>
-        <div class="part03_div bg2">
+        <div class="part03_div bg2 bg2_3">
             <h2>下店指导</h2>
             <div class="t">
                 <p>店铺营业期间总部会派运营经理到店指导，讲解工作</p>
@@ -208,7 +209,7 @@
             </div>
             <div class="more"><a href="javascript:;">详情&nbsp;&nbsp;&gt;&gt;</a></div>
         </div>
-        <div class="part03_div bg2">
+        <div class="part03_div bg2 bg2_4">
             <h2>运营培训</h2>
             <div class="t">
                 <p>为合作商提供专业的店面经营管理，营销方案等培训</p>
@@ -229,7 +230,7 @@
             </div>
             <div class="more"><a href="javascript:;">详情&nbsp;&nbsp;&gt;&gt;</a></div>
         </div>
-        <div class="part03_div bg2">
+        <div class="part03_div bg2 bg2_5">
             <h2>产品保障</h2>
             <div class="t">
                 <p>产品更新匹配市场，保障客户售卖率降低库存积压</p>
@@ -243,31 +244,33 @@
             </div>
             <div class="more"><a href="javascript:;">详情&nbsp;&nbsp;&gt;&gt;</a></div>
         </div>
-        <div class="part03_div bg2">
+        <div class="part03_div bg2 bg2_6">
             <h2>价格优惠</h2>
             <div class="t">
                 <p>加盟价格低、服务好，优势强，无消费陷阱，无二次强行消费，性价比高</p>
             </div>
             <div class="more"><a href="javascript:;">详情&nbsp;&nbsp;&gt;&gt;</a></div>
         </div>
-    </div>
+        <img src="images/cat.png" class="c_1">
+        <img src="images/dog.png" class="c_2">
+    </div>  
 </div>
 <div class="part05">
     <h2>免费获取投资分析</h2>
     <h3>一键预约，即可享受<span>百名市场投资专家</span>为您量身定制方案</h3>
     <div class="part05_in1">
-        <input type="text" value="请输入您的姓名" />
-        <input type="text" value="请输入您的地址" />
+        <input type="text" value="" id="name" placeholder="请输入您的姓名" />
+        <input type="text" value="" id="address" placeholder="请输入您的地址" />
     </div>
     <div class="part05_in2">
-        <input type="text" value="请输入您的电话" />
+        <input type="text" value="" id="phone"  placeholder="请输入您的电话"/>
     </div>
-    <div class="part05_in3"><a href="javascript:;">预约免费设计</a></div>
+    <div class="part05_in3"><a href="javascript:;"><img src="images/figrue.png" class="figImg">预约免费投资资料</a></div>
 </div>
 <div class="part04">
     <div class="title">
-        <img src="./images/title_icon.png" />四大<span>区域运营</span>为您的店铺营收保驾护航
-        <p>你的每一步，运营小分队与你风雨同行 </p>
+        四大<span>区域运营</span>为您的店铺营收保驾护航
+        <p style="font-size: 18px;">你的每一步，运营小分队与你风雨同行 </p>
     </div>
     <div class="layout part04_con">
         <div class="part04_list clearfix">
@@ -317,7 +320,7 @@
 </div>
 <div class="part06">
     <div class="title">
-        <img src="./images/title_icon.png" />近1亿养宠家庭，盛宠店就在您身边
+        近1亿养宠家庭，盛宠店就在您身边
         <p style="font-size:24px;"><span>1100+</span>加盟连锁店实力见证，携手圣宠宠物，<span>起航您的创业梦</span> </p>
     </div>
     <div class="part06_inner">
@@ -342,18 +345,18 @@
 </div>
 <div class="part07">
     <div class="title">
-        <img src="./images/title_icon.png" />店型对比
+        <font class="title_line" style="width: 150px;"></font>店型对比<font class="title_line" style="width: 150px;"></font>
         <p>Shop type comparison</p>
     </div>
     <div class="clearfix layout">
         <div class="part07_c l">
-            <div class="img"><img src="./images/banner_10.jpg" /><div class="t">尊享店</div></div>
+            <div class="img"><div class="img_"></div><div class="t">尊享店</div></div>
         </div>
         <div class="part07_c mar01 l">
-            <div class="img"><img src="./images/banner_11.jpg" /><div class="t">智享店</div></div>
+            <div class="img"><div class="img_"></div><div class="t">智享店</div></div>
         </div>
         <div class="part07_c r">
-            <div class="img"><img src="./images/banner_12.jpg" /><div class="t">轻享店</div></div>
+            <div class="img"><div class="img_"></div><div class="t">轻享店</div></div>
         </div>
     </div>
     <div class="part07_line">
@@ -534,7 +537,7 @@
 </div>
 <div class="part09">
     <div class="title">
-        <img src="./images/title_icon.png" />荣誉资质
+        <font class="title_line"></font>荣誉资质<font class="title_line"></font>
         <p>Honorary qualification</p>
         <div class="pic_1">
             <div>
@@ -573,9 +576,9 @@
                 </ul>
             </div>
             <div class="part10_mes">
-                <input type="text" value="姓名" class="text" />
-                <input type="text" value="电话" class="text" />
-                <textarea>留言</textarea>
+                <input type="text" value="" class="text name_"  placeholder="姓名" />
+                <input type="text" value="" class="text phone_" placeholder="电话" />
+                <textarea class="ly_" placeholder="留言"></textarea>
                 <input type="button" class="but" value="在线申请">
             </div>
             <div class="part10_right">
@@ -621,6 +624,7 @@
 </div> 
 </body>
 <script type="text/javascript" src="./js/swiper.min.js"></script>
+<script type="text/javascript" src="./js/jquery.min.js"></script>
 <script>
     var swiper = new Swiper('.swiper-container', {
       spaceBetween: 30,
@@ -638,5 +642,19 @@
         prevEl: '.swiper-button-prev',
       },
     });
+     $('.textPhone').on('keydown', function (event) {
+        var event = window.event || arguments.callee.caller.arguments[0];
+        if (event.keyCode == 13){
+            alert($(".textPhone").val())
+        }
+    });
+
+     $(".part05_in3").on("click",function(){
+        alert("名称："+$("#name").val()+";地址："+$("#address").val()+";电话："+$("#phone").val())
+     })
+
+     $(".but").on("click",function(){
+         alert("姓名："+$(".name_").val()+"; 电话："+$(".phone_").val()+"; 留言："+$(".ly_").val())
+     })
   </script>
 </html>
