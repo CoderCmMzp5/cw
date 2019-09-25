@@ -74,6 +74,7 @@
     <div class="search">
     	<input type="text" value="输入手机号" class="iphone" readonly=""  />|
         <input type="text" placeholder="3秒立即获取开店费用" class="text textPhone"/>
+        <div class="submitBtn">确定</div>
     </div>
   </div>
 </div>
@@ -648,6 +649,9 @@
             alert($(".textPhone").val())
         }
     });
+     $(".submitBtn").on("click",function(){
+         alert("电话："+$(".textPhone").val())
+     })
 
      $(".part05_in3").on("click",function(){
         alert("名称："+$("#name").val()+";地址："+$("#address").val()+";电话："+$("#phone").val())
